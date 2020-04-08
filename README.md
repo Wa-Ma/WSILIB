@@ -53,7 +53,8 @@ Spplement119:
 + [Orthanc WSI Server and Open Source Tools](https://wsi.orthanc-server.com/orthanc/app/explorer.html)
 + [DICOM](https://www.dicomstandard.org/current/)
 
-#配置：
+配置：
+======
 老王这部分就交给你了,
 1.如何配置数据库文件
 2.配置好服务端
