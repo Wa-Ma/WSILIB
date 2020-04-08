@@ -1,10 +1,14 @@
-#WSILIB
-###this project:
+WSILIB
+=======
+this project:
+------
 Whole Slide Image + fo-dicom。
 The WSILIB is seriously ordered by the supplement 145 of DICOM: Whole Slide Imaging
 
-#简介：
-###Whole Slide Image:
+简介：
+====
+Whole Slide Image:
+------
 全视野数字切片(Whole Slide Image, WSI） 主要应用于病理学细胞图像领域。
 
 **Supplement 145** 是 DICOM 关于 WSI 的重要标准，通过结合一种处理平铺大图像的方式为多帧图像和不同分辨率的多个图像提供对 WSI 的支持。主要解决了病理学图片的显示、平移、放缩、标注、显示状态等问题。是病理学图像数字化和标准化的重要标准。
@@ -31,18 +35,20 @@ DICOM 图像还包含了 Series Instance UID， Series Instance UID 将不同层
 
 
 
-
-###fo-dicom:
+fo-dicom:
+------
 fo-dicom是基于.Net平台的 DICOM 库，提供了完备的 DICOM API 和完整的文档手册。
 fo-dicom项目：
 https://github.com/fo-dicom/fo-dicom
 fo-dicom例子：
 https://github.com/fo-dicomfo-dicom-samples
 
-###Spplement119:
+Spplement119:
+--------
 本系统还参考 Supplement 119 对帧水平获取 SOP 类的规定实现了病理学图像的 DICOM 网络传输
 
-###参考文献：
+参考文献：
+-------
 + [Supplement 145: Whole Slide Microscopic Image IOD and SOP Classes. Digital Imaging and Communications in Medicine ](http://dicom.nema.org/Dicom/DICOMWSI/)
 + [Orthanc WSI Server and Open Source Tools](https://wsi.orthanc-server.com/orthanc/app/explorer.html)
 + [DICOM](https://www.dicomstandard.org/current/)
