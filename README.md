@@ -49,14 +49,36 @@ Spplement119:
 --------
 本系统还参考 Supplement 119 对帧水平获取 SOP 类的规定实现了病理学图像的 DICOM 网络传输
 
-参考文献：
+
+
+配置：
+---------
+1.数据库文件位于https://github.com/Wa-Ma/WSILIB/releases/tag/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%96%87%E4%BB%B6
+
+2.服务端位于https://github.com/Wa-Ma/DICOMWSI
+
+3.如果不想使用网络功能，请移步https://github.com/alittlehorse/DICOMWSI
+
+4.老王你再加详细一点
+
+
+
+log
+----------
+- 04.08:修改显示bug和序列号错误问题
+
+- 04.09：加入Supplement145和项目简介
+
+- 04.15：上传客户端项目和数据库
+
+修改目标：
 -------
+1.修改窗口界面，使本项目可以手动更改网络监听端口
+
+2.修改显示代码，加入c-find查找全序列图片，是本项目可以可视化选择序列号，自动化区分是注册还是接收
+
+参考文献：
+========
 + [Supplement 145: Whole Slide Microscopic Image IOD and SOP Classes. Digital Imaging and Communications in Medicine ](http://dicom.nema.org/Dicom/DICOMWSI/)
 + [Orthanc WSI Server and Open Source Tools](https://wsi.orthanc-server.com/orthanc/app/explorer.html)
 + [DICOM](https://www.dicomstandard.org/current/)
-
-配置：
-======
-1.数据库文件位于https://github.com/Wa-Ma/WSILIB/releases/tag/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%96%87%E4%BB%B6 中
-2.服务端位于https://github.com/Wa-Ma/DICOMWSI
-3.如果不想使用网络功能，请移步https://github.com/alittlehorse/DICOMWSI
