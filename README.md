@@ -57,6 +57,6 @@ Spplement119:
 
 配置：
 ======
-老王这部分就交给你了,
-1.如何配置数据库文件
-2.配置好服务端
+1.数据库文件位于https://github.com/Wa-Ma/WSILIB/releases/tag/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%96%87%E4%BB%B6 中
+2.服务端位于https://github.com/Wa-Ma/DICOMWSI
+3.如果不想使用网络功能，请移步https://github.com/alittlehorse/DICOMWSI
